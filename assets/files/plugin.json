@@ -1,0 +1,23 @@
+{
+  "version"     : "1.0.2",
+  "new_version" : "1.0.2",
+  "name" : "Elementor Sparkle Elements",
+  "slug" : "elementor-sparkle-elements",
+  "plugin" : "elementor-sparkle-elements/elementor-sparkle-elements.php",
+  "package" : "https://sparklewp.com/plugins/elementor-sparkle-elements/elementor-sparkle-elements.zip",
+  "requires" : "4.9",
+  "tested" : "6.2",
+  "upgrade_notice" : "Plugin update is available.",
+  "author" : "Sparkle WP",
+  "author_profile" : "https://profiles.wordpress.org/sparklewpthemes/",
+  "author_homepage" : "https://sparklewp.com",
+  "sections" : {
+    "description" : "",
+    "installation" : "",
+    "changelog" : ""
+  },
+  "banners" : {
+    "low" : "",
+    "high" : ""
+  }
+}

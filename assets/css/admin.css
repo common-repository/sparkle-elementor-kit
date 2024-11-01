@@ -1,0 +1,203 @@
+/*
+* Import Mixins
+*/
+.toplevel_page_sparkle_el_kit img {
+  width: 18px;
+}
+.ese-admin-ajax-success {
+  padding: 15px;
+  border: 1px solid green;
+  line-height: 1.3;
+  background-color: #def6e6;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  margin: 10px 0;
+}
+.ese-admin-ajax-error {
+  padding: 15px;
+  border: 1px solid red;
+  line-height: 1.3;
+  background-color: #f6dede;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  margin: 10px 0;
+}
+.ese-c-red {
+  color: red;
+}
+.ese-disable {
+  pointer-events: none;
+  -webkit-opacity: 0.7;
+  -moz-opacity: 0.7;
+  opacity: 0.7;
+}
+ul.ese-list {
+  list-style: disc;
+  margin-left: 20px;
+}
+table.ese-table {
+  width: 100%;
+}
+table.ese-table tr td {
+  padding: 10px;
+  border-bottom: 1px solid #ececec;
+}
+table.ese-table tr td.ese-settings-label {
+  width: 300px;
+}
+table.ese-table tr td input[type=text],
+table.ese-table tr td input[type=number] {
+  min-width: 300px;
+}
+.ese-inner-tab-switchers {
+  display: flex;
+  gap: 10px;
+  margin: 20px 0;
+}
+.ese-inner-tab-switchers .ese-inner-switcher {
+  border: 1px solid #ececec;
+  padding: 20px;
+  cursor: pointer;
+  width: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ese-inner-tab-switchers .ese-inner-switcher.ese-active {
+  background-color: #ececec;
+}
+.ese-inner-tab-switchers .ese-inner-switcher:hover {
+  border-color: #d2d2d2;
+}
+.ese-inner-tab-switchers .ese-inner-switcher img {
+  height: auto;
+  width: auto;
+  max-height: 60px;
+  max-width: 130px;
+}
+.ese-inner-tabs .ese-inner-tab {
+  display: none;
+}
+.ese-admin-box {
+  border: 1px solid #d2d2d2;
+  padding: 25px;
+  -webkit-box-shadow: 0 1px 15px 0 rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 1px 15px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 0 1px 15px 0 rgba(0, 0, 0, 0.1);
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  border-radius: 15px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  margin: 15px 0;
+}
+.ese-admin-box.nt-small-padding {
+  padding: 15px;
+}
+.ese-admin-box.nt-no-padding {
+  padding: 0;
+}
+.ese-admin-box .nt-admin-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+.ese-admin .ese-admin-wrapper {
+  background-color: #fff;
+  margin: 0px 0 0 -20px;
+  padding: 30px;
+  min-height: 100vh;
+}
+.ese-admin .ese-migrater {
+  max-width: 600px;
+  margin-top: 30px;
+}
+.ese-admin .ese-settings {
+  display: flex;
+  gap: 30px;
+}
+.ese-admin .ese-settings .ese-settings-left {
+  background-color: #fff;
+  padding: 20px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  border-radius: 15px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  width: 250px;
+}
+.ese-admin .ese-settings .ese-settings-left ul.ese-admin-menu {
+  margin: 0 0 20px 0;
+  padding: 0;
+  list-style: none;
+}
+.ese-admin .ese-settings .ese-settings-left ul.ese-admin-menu li {
+  border-bottom: 1px solid #ececec;
+  cursor: pointer;
+  padding: 15px;
+  -webkit-transition: all ease 0.25s;
+  -moz-transition: all ease 0.25s;
+  -ms-transition: all ease 0.25s;
+  -o-transition: all ease 0.25s;
+  color: #3c434a;
+  margin: 5px 0;
+  background-color: #f1f1f1;
+  font-size: 14px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+}
+.ese-admin .ese-settings .ese-settings-left ul.ese-admin-menu li:hover {
+  background-color: #ececec;
+}
+.ese-admin .ese-settings .ese-settings-left ul.ese-admin-menu li.ese-active {
+  border-left: 5px solid #1cd4c4;
+}
+.ese-admin .ese-settings .ese-settings-right {
+  background-color: #fff;
+  padding: 20px;
+  flex: 1;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  border-radius: 15px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+}
+.ese-admin .ese-settings .ese-settings-right .ese-admin-tab {
+  display: none;
+}
+.ese-admin .ese-settings .ese-settings-right .ese-admin-tab.ese-active {
+  display: block;
+}
+.ese-admin .ese-settings .ese-settings-right .ese-admin-tab .ese-settings-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  background-color: #f1f1f1;
+  padding: 15px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+}
+.ese-admin .ese-settings .ese-settings-right .ese-admin-tab .ese-small-settings-title {
+  font-size: 16px;
+  font-weight: bold;
+}
+/*# sourceMappingURL=admin.css.map */

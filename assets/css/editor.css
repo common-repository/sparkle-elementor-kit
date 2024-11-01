@@ -1,0 +1,24 @@
+/*
+* Import Mixins
+*/
+.elementor-element-wrapper .sparkle-icon {
+  display: block;
+  margin: 0 auto;
+  width: 30px;
+  height: 30px;
+  background-size: cover;
+  background-position: center center;
+  background-image: url('../img/icon.png?aa');
+  opacity: 1;
+}
+.elementor-panel .elementor-control.the7-control .elementor-section-title > i:after,
+.elementor-panel .elementor-control.the7-control label.elementor-control-title:after {
+  right: -14px;
+  bottom: 6px;
+  content: "";
+  background-color: red;
+  position: absolute;
+  width: 12px;
+  height: 12px;
+}
+/*# sourceMappingURL=editor.css.map */
